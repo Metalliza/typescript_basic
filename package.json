@@ -1,0 +1,16 @@
+{
+  "name": "typescript_start",
+  "version": "0.0.1",
+  "description": "typescript basic setting",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsc && node ./dist/index.js",
+    "tsc": "tsc",
+    "test": "tsc && node ./dist/test.js"
+  },
+  "author": "metalliza",
+  "license": "MIT",
+  "dependencies": {
+    "typescript": "^2.3.4"
+  }
+}
